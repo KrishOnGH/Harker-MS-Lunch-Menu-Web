@@ -35,20 +35,8 @@ def get_day_lunch(month, day, year):
     else:
         return jsonify({"error": "Failed to retrieve data"}), 500
 
-# Get the lunch for the entire school week (Monday to Friday)
-@app.route('/week/<int:month>/<int:day>/<int:year>', methods=['GET'])
-def get_week_lunch(month, day, year):
-    target_date = datetime(year, month, day)
-
-    if target_date.weekday() == 5:  # Saturday
-        start_date = target_date - timedelta(days=5)
-    elif target_date.weekday() == 6:  # Sunday
-        start_date = target_date + timedelta(days=1)
-    else:
-        start_date = target_date - timedelta(days=target_date.weekday())
-
+def get_week_lunch(start_date):
     end_date = start_date + timedelta(days=4)
-
     week_lunch = []
     current_date = start_date
 
@@ -66,7 +54,33 @@ def get_week_lunch(month, day, year):
             })
         current_date += timedelta(days=1)
 
-    return jsonify(week_lunch), 200
+    return week_lunch
+
+# Get the lunch for 21 weeks (10 before, current week, 10 after)
+@app.route('/bulkweeks/<int:month>/<int:day>/<int:year>', methods=['GET'])
+def get_bulk_weeks_lunch(month, day, year):
+    target_date = datetime(year, month, day)
+
+    if target_date.weekday() == 5:  # Saturday
+        start_of_week = target_date - timedelta(days=5)
+    elif target_date.weekday() == 6:  # Sunday
+        start_of_week = target_date + timedelta(days=1)
+    else:
+        start_of_week = target_date - timedelta(days=target_date.weekday())
+
+    start_date = start_of_week - timedelta(weeks=2)
+
+    bulk_weeks = []
+    for i in range(5):
+        week_start = start_date + timedelta(weeks=i)
+        week_lunch = get_week_lunch(week_start)
+        print(f'week {i} fetched')
+        bulk_weeks.append({
+            "weekStart": week_start.strftime("%Y-%m-%d"),
+            "lunch": week_lunch
+        })
+
+    return jsonify(bulk_weeks), 200
 
 if __name__ == "__main__":
     app.run(debug=True)
