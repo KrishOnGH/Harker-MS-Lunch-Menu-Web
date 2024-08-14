@@ -1,9 +1,10 @@
 from flask import Flask, jsonify
 import requests
 from datetime import datetime, timedelta
-import pytz
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 # Base URL for the API
 BASE_URL = "https://bell.dev.harker.org/api/lunchmenu"
