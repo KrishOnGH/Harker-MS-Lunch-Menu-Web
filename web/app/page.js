@@ -1,5 +1,6 @@
 "use client"
 import React, { useState, useEffect, useRef } from "react";
+import Tilt from "react-parallax-tilt";
 import { Calendar } from 'lucide-react';
 import { format, addDays, parseISO, startOfMonth, endOfMonth, eachDayOfInterval } from 'date-fns';
 
@@ -16,6 +17,13 @@ export default function Home() {
   const [year, setYear] = useState(0);
   const [dayIndex, setDayIndex] = useState(0);
   const [isCalendarOpen, setIsCalendarOpen] = useState(false);
+  const [selectingYear, setSelectingYear] = useState(year)
+  const [selectingMonth, setSelectingMonth] = useState(month)
+
+  useEffect(() => {
+    setSelectingYear(year);
+    setSelectingMonth(month);
+  }, [year, month]);
 
   // Resize
   useEffect(() => {
@@ -116,6 +124,26 @@ export default function Home() {
     }
   };
 
+  const handlePrevMonth = () => {
+    setSelectingMonth(prev => {
+      if (prev === 1) {
+        setSelectingYear(selectingYear - 1);
+        return 12;
+      }
+      return prev - 1;
+    });
+  };
+  
+  const handleNextMonth = () => {
+    setSelectingMonth(prev => {
+      if (prev === 12) {
+        setSelectingYear(selectingYear + 1);
+        return 1;
+      }
+      return prev + 1;
+    });
+  }
+
   const toggleCalendar = () => setIsCalendarOpen(!isCalendarOpen);
 
   const handleDateClick = (selectedDate) => {
@@ -127,27 +155,35 @@ export default function Home() {
   };
 
   const renderCalendar = () => {
-    const currentDate = new Date(year, month - 1, day);
+    const currentDate = new Date(selectingYear, selectingMonth - 1, day);
     const monthStart = startOfMonth(currentDate);
     const monthEnd = endOfMonth(currentDate);
     const days = eachDayOfInterval({ start: monthStart, end: monthEnd });
+    const startDay = format(new Date(selectingYear, selectingMonth - 1, 1), 'c')
 
     return (
       <div className="bg-white shadow-lg rounded-lg p-6 absolute top-full right-[-80px] mt-4 z-10 border border-gray-300">
         <div className="flex justify-between items-center mb-6">
-          <button onClick={() => setMonth(prev => prev > 1 ? prev - 1 : 12)} className="text-black hover:bg-gray-200 p-2 rounded-full">&lsaquo;</button>
-          <span className="font-bold text-black text-lg">{format(currentDate, 'MMMM yyyy')}</span>
-          <button onClick={() => setMonth(prev => prev < 12 ? prev + 1 : 1)} className="text-black hover:bg-gray-200 p-2 rounded-full">&rsaquo;</button>
+          <button onClick={handlePrevMonth} className="text-black hover:bg-gray-200 p-2 rounded-full">&lsaquo;</button>
+          <span className="font-bold text-black text-lg">{format(currentDate, 'MMM yyyy')}</span>
+          <button onClick={handleNextMonth} className="text-black hover:bg-gray-200 p-2 rounded-full">&rsaquo;</button>
         </div>
-        <div className="grid grid-cols-7 gap-4 gap-x-10 pr-4">
+        <div className="grid grid-cols-7 gap-4 gap-x-10 pr-6">
           {['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'].map(day => (
             <div key={day} className="text-center font-bold text-black">{day}</div>
+          ))}
+          {[...Array(startDay-1).keys()].map(idx => (
+            <button
+              key={day.toString()}
+              onClick={() => handleDateClick(day)}
+              className={`py-2 px-4 flex items-center justify-center text-sm rounded-full bg-white`}
+            ></button>
           ))}
           {days.map(day => (
             <button
               key={day.toString()}
               onClick={() => handleDateClick(day)}
-              className={`p-2 flex items-center justify-center text-sm rounded-full ${format(day, 'yyyy-MM-dd') === format(currentDate, 'yyyy-MM-dd')
+              className={`py-2 px-4 flex items-center justify-center text-sm rounded-full ${format(day, 'yyyy-MM-dd') === format(currentDate, 'yyyy-MM-dd')
                 ? 'bg-blue-500 text-white'
                 : 'text-black hover:bg-gray-200'
               }`}
@@ -165,7 +201,9 @@ export default function Home() {
 
   return (
     <main className="bg-white flex flex-col items-center space-y-4 p-4 h-screen w-screen overflow-hidden">
-      <div className="flex space-x-4 mb-4 relative">
+      <div className="text-black text-3xl font-medium">Harker Lunch Menu</div>
+
+      <div className="flex space-x-4 mt-[4vh] relative">
         <button onClick={handlePrevButton} className="px-4 py-2 text-lg text-black rounded">&lsaquo;</button>
         <button onClick={toggleCalendar} className="p-2 rounded-full text-black">
           <Calendar size={24} />
@@ -173,7 +211,8 @@ export default function Home() {
         <button onClick={handleNextButton} className="px-4 py-2 text-lg text-black rounded">&rsaquo;</button>
         {isCalendarOpen && renderCalendar()}
       </div>
-      <div className={`flex ${isSingleView ? 'flex-col' : 'flex-row'} h-full w-full justify-center items-center space-x-[0.5vw]`}>
+
+      <div className={`flex ${isSingleView ? 'flex-col' : 'flex-row'} space-x-[0.5vw]`}>
         {isSingleView 
           ? scheduleData.length > 0 && (
             <ScheduleEntry 
@@ -204,34 +243,40 @@ const ScheduleEntry = React.forwardRef(({ entry, maxHeight, date, dayNum }, ref)
   date = format(addDays(parseISO(date), dayNum), 'yyyy-MM-dd');
   if (entry.lunch != 'empty') {
     return (
-      <div 
-        ref={ref}
-        className={`bg-white border border-black shadow-md rounded-lg flex-none aspect-auto w-[14rem] md:w-[10rem] lg:w-[11rem] xl:w-[15rem] p-4 overflow-y-auto`}
-        style={{ height: maxHeight > 0 ? `${maxHeight}px` : 'auto' }}
-      >
-        <h3 className="font-bold text-md mb-2 text-gray-800">{entry.day} <span className="text-xs">{date}</span> </h3>
-        <ul>
-          {entry.lunch.lunch.map((item, idx) => (
-            <li key={idx} className="mb-3">
-              <p className="text-xs lg:text-[0.8rem] text-gray-800 font-medium">{item.food}</p>
-              <p className="text-xs text-gray-500">{item.place}</p>
-            </li>
-          ))}
-        </ul>
-      </div>
+      <Tilt tiltMaxAngleX={10} 
+        tiltMaxAngleY={10} perspective={1000}>
+        <div 
+          ref={ref}
+          className={`mt-[4vh] bg-white border border-black shadow-md rounded-lg flex-none aspect-auto w-[14rem] md:w-[10rem] lg:w-[11rem] xl:w-[15rem] p-4 overflow-y-auto`}
+          style={{ height: maxHeight > 0 ? `${maxHeight}px` : 'auto' }}
+        >
+          <h3 className="font-bold text-md mb-2 text-gray-800">{entry.day} <span className="text-xs">{date}</span> </h3>
+          <ul>
+            {entry.lunch.lunch.map((item, idx) => (
+              <li key={idx} className="mb-3">
+                <p className="text-xs lg:text-[0.8rem] text-gray-800 font-medium">{item.food}</p>
+                <p className="text-xs text-gray-500">{item.place}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </Tilt>
     );
   } else {
     return (
-      <div 
-        ref={ref}
-        className={`bg-white border border-black shadow-md rounded-lg flex-none w-[14rem] md:w-[10rem] lg:w-[11rem] xl:w-[15rem] p-4 overflow-y-auto`}
-        style={{ height: maxHeight > 0 ? `${maxHeight}px` : 'auto' }}
-      >
-        <h3 className="font-bold text-md mb-2 text-gray-800">{entry.day} <span className="text-xs">{date}</span> </h3>
-        <div className="flex h-[25.2rem] md:h-[18rem] lg:h-[19.8rem] xl:h-[27rem] w-full justify-center items-center text-gray-800">
-          Empty
+      <Tilt glareEnable={true} tiltMaxAngleX={10} 
+        tiltMaxAngleY={10} perspective={1000}>
+        <div 
+          ref={ref}
+          className={`mt-[4vh] bg-white border border-black shadow-md rounded-lg flex-none w-[14rem] md:w-[10rem] lg:w-[11rem] xl:w-[15rem] p-4 overflow-y-auto`}
+          style={{ height: maxHeight > 0 ? `${maxHeight}px` : 'auto' }}
+        >
+          <h3 className="font-bold text-md mb-2 text-gray-800">{entry.day} <span className="text-xs">{date}</span> </h3>
+          <div className="flex h-[25.2rem] md:h-[18rem] lg:h-[19.8rem] xl:h-[27rem] w-full justify-center items-center text-gray-800">
+            Empty
+          </div>
         </div>
-      </div>
+      </Tilt>
     )
   }
 });
