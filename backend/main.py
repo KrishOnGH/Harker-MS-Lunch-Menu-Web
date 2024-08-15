@@ -1,5 +1,6 @@
 from flask import Flask, jsonify
 import requests
+import json
 from datetime import datetime, timedelta
 from flask_cors import CORS
 
@@ -35,7 +36,35 @@ def get_day_lunch(month, day, year):
     else:
         return jsonify({"error": "Failed to retrieve data"}), 500
 
-def get_week_lunch(start_date):
+def load_stored_weeks():
+    try:
+        with open('storedweeks.json', 'r') as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+def save_stored_weeks(stored_weeks):
+    with open('storedweeks.json', 'w') as f:
+        json.dump(stored_weeks, f)
+
+@app.route('/week/<int:month>/<int:day>/<int:year>', methods=['GET'])
+def get_week_lunch(month, day, year):
+    target_date = datetime(year, month, day)
+
+    if target_date.weekday() == 5:  # Saturday
+        start_date = target_date - timedelta(days=5)
+    elif target_date.weekday() == 6:  # Sunday
+        start_date = target_date + timedelta(days=1)
+    else:
+        start_date = target_date - timedelta(days=target_date.weekday())
+
+    start_date_str = start_date.strftime("%Y-%m-%d")
+
+    stored_weeks = load_stored_weeks()
+
+    if start_date_str in stored_weeks:
+        return jsonify(stored_weeks[start_date_str]), 200
+
     end_date = start_date + timedelta(days=4)
     week_lunch = []
     current_date = start_date
@@ -45,42 +74,21 @@ def get_week_lunch(start_date):
         if day_lunch:
             week_lunch.append({
                 "day": current_date.strftime("%A"),
-                "lunch": day_lunch
+                "lunch": day_lunch,
+                "weekStart": start_date_str
             })
         else:
             week_lunch.append({
                 "day": current_date.strftime("%A"),
-                "lunch": "empty"
+                "lunch": "empty",
+                "weekStart": start_date_str
             })
         current_date += timedelta(days=1)
 
-    return week_lunch
+    stored_weeks[start_date_str] = week_lunch
+    save_stored_weeks(stored_weeks)
 
-# Get the lunch for 21 weeks (10 before, current week, 10 after)
-@app.route('/bulkweeks/<int:month>/<int:day>/<int:year>', methods=['GET'])
-def get_bulk_weeks_lunch(month, day, year):
-    target_date = datetime(year, month, day)
-
-    if target_date.weekday() == 5:  # Saturday
-        start_of_week = target_date - timedelta(days=5)
-    elif target_date.weekday() == 6:  # Sunday
-        start_of_week = target_date + timedelta(days=1)
-    else:
-        start_of_week = target_date - timedelta(days=target_date.weekday())
-
-    start_date = start_of_week - timedelta(weeks=2)
-
-    bulk_weeks = []
-    for i in range(5):
-        week_start = start_date + timedelta(weeks=i)
-        week_lunch = get_week_lunch(week_start)
-        print(f'week {i} fetched')
-        bulk_weeks.append({
-            "weekStart": week_start.strftime("%Y-%m-%d"),
-            "lunch": week_lunch
-        })
-
-    return jsonify(bulk_weeks), 200
+    return jsonify(week_lunch), 200
 
 if __name__ == "__main__":
     app.run(debug=True)
