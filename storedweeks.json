@@ -1,1 +1,569 @@
-{"2024-08-12": [{"day": "Monday", "lunch": "empty", "weekStart": "2024-08-12"}, {"day": "Tuesday", "lunch": "empty", "weekStart": "2024-08-12"}, {"day": "Wednesday", "lunch": "empty", "weekStart": "2024-08-12"}, {"day": "Thursday", "lunch": "empty", "weekStart": "2024-08-12"}, {"day": "Friday", "lunch": "empty", "weekStart": "2024-08-12"}], "2024-08-05": [{"day": "Monday", "lunch": "empty", "weekStart": "2024-08-05"}, {"day": "Tuesday", "lunch": "empty", "weekStart": "2024-08-05"}, {"day": "Wednesday", "lunch": "empty", "weekStart": "2024-08-05"}, {"day": "Thursday", "lunch": "empty", "weekStart": "2024-08-05"}, {"day": "Friday", "lunch": "empty", "weekStart": "2024-08-05"}], "2024-07-29": [{"day": "Monday", "lunch": "empty", "weekStart": "2024-07-29"}, {"day": "Tuesday", "lunch": "empty", "weekStart": "2024-07-29"}, {"day": "Wednesday", "lunch": "empty", "weekStart": "2024-07-29"}, {"day": "Thursday", "lunch": "empty", "weekStart": "2024-07-29"}, {"day": "Friday", "lunch": "empty", "weekStart": "2024-07-29"}], "2024-07-22": [{"day": "Monday", "lunch": "empty", "weekStart": "2024-07-22"}, {"day": "Tuesday", "lunch": "empty", "weekStart": "2024-07-22"}, {"day": "Wednesday", "lunch": "empty", "weekStart": "2024-07-22"}, {"day": "Thursday", "lunch": "empty", "weekStart": "2024-07-22"}, {"day": "Friday", "lunch": "empty", "weekStart": "2024-07-22"}], "2024-07-15": [{"day": "Monday", "lunch": "empty", "weekStart": "2024-07-15"}, {"day": "Tuesday", "lunch": "empty", "weekStart": "2024-07-15"}, {"day": "Wednesday", "lunch": "empty", "weekStart": "2024-07-15"}, {"day": "Thursday", "lunch": "empty", "weekStart": "2024-07-15"}, {"day": "Friday", "lunch": "empty", "weekStart": "2024-07-15"}], "2024-07-08": [{"day": "Monday", "lunch": "empty", "weekStart": "2024-07-08"}, {"day": "Tuesday", "lunch": "empty", "weekStart": "2024-07-08"}, {"day": "Wednesday", "lunch": "empty", "weekStart": "2024-07-08"}, {"day": "Thursday", "lunch": "empty", "weekStart": "2024-07-08"}, {"day": "Friday", "lunch": "empty", "weekStart": "2024-07-08"}], "2024-07-01": [{"day": "Monday", "lunch": "empty", "weekStart": "2024-07-01"}, {"day": "Tuesday", "lunch": "empty", "weekStart": "2024-07-01"}, {"day": "Wednesday", "lunch": "empty", "weekStart": "2024-07-01"}, {"day": "Thursday", "lunch": "empty", "weekStart": "2024-07-01"}, {"day": "Friday", "lunch": "empty", "weekStart": "2024-07-01"}], "2024-06-24": [{"day": "Monday", "lunch": "empty", "weekStart": "2024-06-24"}, {"day": "Tuesday", "lunch": "empty", "weekStart": "2024-06-24"}, {"day": "Wednesday", "lunch": "empty", "weekStart": "2024-06-24"}, {"day": "Thursday", "lunch": "empty", "weekStart": "2024-06-24"}, {"day": "Friday", "lunch": "empty", "weekStart": "2024-06-24"}], "2024-06-17": [{"day": "Monday", "lunch": "empty", "weekStart": "2024-06-17"}, {"day": "Tuesday", "lunch": "empty", "weekStart": "2024-06-17"}, {"day": "Wednesday", "lunch": "empty", "weekStart": "2024-06-17"}, {"day": "Thursday", "lunch": "empty", "weekStart": "2024-06-17"}, {"day": "Friday", "lunch": "empty", "weekStart": "2024-06-17"}], "2024-06-10": [{"day": "Monday", "lunch": "empty", "weekStart": "2024-06-10"}, {"day": "Tuesday", "lunch": "empty", "weekStart": "2024-06-10"}, {"day": "Wednesday", "lunch": "empty", "weekStart": "2024-06-10"}, {"day": "Thursday", "lunch": "empty", "weekStart": "2024-06-10"}, {"day": "Friday", "lunch": "empty", "weekStart": "2024-06-10"}], "2024-06-03": [{"day": "Monday", "lunch": "empty", "weekStart": "2024-06-03"}, {"day": "Tuesday", "lunch": "empty", "weekStart": "2024-06-03"}, {"day": "Wednesday", "lunch": "empty", "weekStart": "2024-06-03"}, {"day": "Thursday", "lunch": "empty", "weekStart": "2024-06-03"}, {"day": "Friday", "lunch": "empty", "weekStart": "2024-06-03"}], "2024-05-27": [{"day": "Monday", "lunch": "empty", "weekStart": "2024-05-27"}, {"day": "Tuesday", "lunch": "empty", "weekStart": "2024-05-27"}, {"day": "Wednesday", "lunch": "empty", "weekStart": "2024-05-27"}, {"day": "Thursday", "lunch": "empty", "weekStart": "2024-05-27"}, {"day": "Friday", "lunch": "empty", "weekStart": "2024-05-27"}], "2024-05-20": [{"day": "Monday", "lunch": "empty", "weekStart": "2024-05-20"}, {"day": "Tuesday", "lunch": "empty", "weekStart": "2024-05-20"}, {"day": "Wednesday", "lunch": "empty", "weekStart": "2024-05-20"}, {"day": "Thursday", "lunch": "empty", "weekStart": "2024-05-20"}, {"day": "Friday", "lunch": "empty", "weekStart": "2024-05-20"}], "2024-05-06": [{"day": "Monday", "lunch": {"date": "2024-05-06T00:00:00.000Z", "lunch": [{"place": "Chef's Grill", "food": "Beef and Broccoli\nSteamed Rice\nChicken Potstickers"}, {"place": "Veggie Cafe", "food": "(VEG, GF) Lentil Hummus Bowl with Charred Peppers\n(VEG, GF) Broccoli and Cheddar Stuffed Potato"}, {"place": "Bistro Garden", "food": "Deli Bar Served Daily\n(GF) Carving Station: Linguica with Cebolada Potatoes"}, {"place": "Mexican Fiesta", "food": "Closed for AP Testing"}, {"place": "Chowda House", "food": "(GF) Shore Dinner"}, {"place": "Burgerland", "food": "(VEG) Veggie Burger Served Daily\n(GF) Animal Style Turkey Burger"}, {"place": "Taste of Italy", "food": "(GF) Tomato Artichoke Pasta"}]}, "weekStart": "2024-05-06"}, {"day": "Tuesday", "lunch": {"date": "2024-05-07T00:00:00.000Z", "lunch": [{"place": "Chef's Grill", "food": "Chicken Parmesan\nCreamy Garlic Shells\nItalian Vegetable Medley"}, {"place": "Veggie Cafe", "food": "(VEG, GF) Sesame Lime Grilled Eggplant\n(VEG, GF) Wild Rice Salad with Mushrooms and Herb"}, {"place": "Bistro Garden", "food": "Deli Bar Served Daily\n(GF) Carving Station: Brunch Brisket"}, {"place": "Mexican Fiesta", "food": "Closed for AP Testing"}, {"place": "Chowda House", "food": "(GF) Citrus Infused Rock Cod"}, {"place": "Burgerland", "food": "(VEG) Veggie Burger Served Daily\n(GF) Ginger Soy Pork Sandwich"}, {"place": "Taste of Italy", "food": "(GF) Mediterranean Pasta with Feta"}]}, "weekStart": "2024-05-06"}, {"day": "Wednesday", "lunch": {"date": "2024-05-08T00:00:00.000Z", "lunch": [{"place": "Chef's Grill", "food": "(GF) Pork Adobado\n(GF) Spanish Rice\n(GF) Pinto Beans"}, {"place": "Veggie Cafe", "food": "(VEG, GF) Saucy Ramen Noodle with Mixed Vegetables\n(VEG, GF) Tofu Banchan"}, {"place": "Bistro Garden", "food": "Deli Bar Served Daily\n(GF) Carving Station: BBQ Lamb Roast"}, {"place": "Mexican Fiesta", "food": "Closed for AP Testing"}, {"place": "Chowda House", "food": "White Clam Flatbread with Chili Oil"}, {"place": "Burgerland", "food": "(VEG) Veggie Burger Served Daily\n(GF) Cowboy Style Grilled Chicken Sandwich"}, {"place": "Taste of Italy", "food": "(GF) Chicken Enchilada Pasta"}]}, "weekStart": "2024-05-06"}, {"day": "Thursday", "lunch": {"date": "2024-05-09T00:00:00.000Z", "lunch": [{"place": "Chef's Grill", "food": "(GF) All Beef Hot Dogs\n(GF) French Fries\n(GF) Corn on the Cob"}, {"place": "Veggie Cafe", "food": "(VEG, GF) Summer Vegetable Cioppino\n(VEG, GF) German Pancake"}, {"place": "Bistro Garden", "food": "Deli Bar Served Daily\n(GF) Carving Station: Southern Stewed Chicken"}, {"place": "Mexican Fiesta", "food": "Closed for AP Testing"}, {"place": "Chowda House", "food": "(GF) Sicilian Tomato Braised Swordfish"}, {"place": "Burgerland", "food": "(VEG) Veggie Burger Served Daily\n(GF) Spicy Cajun Fish Sandwich"}, {"place": "Taste of Italy", "food": "(GF) Creamed Leek and Spinach Alfredo"}]}, "weekStart": "2024-05-06"}, {"day": "Friday", "lunch": {"date": "2024-05-10T00:00:00.000Z", "lunch": [{"place": "Chef's Grill", "food": "(GF) Greek Lemon Chicken\n(GF) Couscous\n(GF) Roasted Cauliflower"}, {"place": "Veggie Cafe", "food": "(VEG, GF) Green Curry with Spinach, Broccoli, and Zucchini\n(VEG, GF) Paneer Manchurian"}, {"place": "Bistro Garden", "food": "Deli Bar Served Daily\n(GF) Carving Station: Smothered Pork Medallions"}, {"place": "Mexican Fiesta", "food": "Closed for AP Testing"}, {"place": "Chowda House", "food": "Crab Cake with Thai Mango Slaw"}, {"place": "Burgerland", "food": "(VEG) Veggie Burger Served Daily\n(GF) Chef\u2019s Choice"}, {"place": "Taste of Italy", "food": "(GF) Asparagus Pesto"}]}, "weekStart": "2024-05-06"}], "2024-05-13": [{"day": "Monday", "lunch": {"date": "2024-05-13T00:00:00.000Z", "lunch": [{"place": "Chef's Grill", "food": "Korean BBQ Bowl\nSteamed Rice\nVegetable Stir Fry"}, {"place": "Veggie Cafe", "food": "(VEG, GF) Spice Trade Beans and Bulgur\n(VEG, GF) Tuscan Portobello Stew"}, {"place": "Bistro Garden", "food": "Deli Bar Served Daily\n(GF) Carving Station: Grilled Chicken with Berry Basil Sauce"}, {"place": "Mexican Fiesta", "food": "Closed for AP Testing"}, {"place": "Chowda House", "food": "Clam Strips with Lemon Dill Coleslaw"}, {"place": "Burgerland", "food": "(VEG) Veggie Burger Served Daily\n(GF) Pork Sandwich with Whole Grain Dijonnaise"}, {"place": "Taste of Italy", "food": "(GF) Meat Sauce"}]}, "weekStart": "2024-05-13"}, {"day": "Tuesday", "lunch": {"date": "2024-05-14T00:00:00.000Z", "lunch": [{"place": "Chef's Grill", "food": "(GF) Cilantro Lime Chicken\n(GF) Southwest Corn and Bean Medley\n(GF) Jalapeno Cornbread"}, {"place": "Veggie Cafe", "food": "(VEG, GF) Tropical Fusion Salad with Spicy Tortilla Strips\n(VEG, GF) Vegetarian Pepperoni Pizza Dip in Bread Bowl"}, {"place": "Bistro Garden", "food": "Deli Bar Served Daily\n(GF) Carving Station: Harissa Spiced Lamb"}, {"place": "Mexican Fiesta", "food": "Closed for AP Testing"}, {"place": "Chowda House", "food": "Haddock Polanaise with Honey Parsley Butter"}, {"place": "Burgerland", "food": "(VEG) Veggie Burger Served Daily\n(GF) Warm BBQ Chicken Wrap"}, {"place": "Taste of Italy", "food": "(GF) Sicilian Lentil Pasta Sauce"}]}, "weekStart": "2024-05-13"}, {"day": "Wednesday", "lunch": {"date": "2024-05-15T00:00:00.000Z", "lunch": [{"place": "Chef's Grill", "food": "Sweet and Sour Pork\nVeggie Lo Mein\nSauteed Bok Choy"}, {"place": "Veggie Cafe", "food": "(VEG, GF) Garlicky Quinoa and Lentils with Ricotta\n(VEG, GF) Potato Samosas"}, {"place": "Bistro Garden", "food": "Deli Bar Served Daily\n(GF) Carving Station: Steak Fajitas with Mango Avocado Salsa"}, {"place": "Mexican Fiesta", "food": "Closed for AP Testing"}, {"place": "Chowda House", "food": "(GF) Mexican Shrimp Cocktails with Saltine Crackers"}, {"place": "Burgerland", "food": "(VEG) Veggie Burger Served Daily\n(GF) Turkey Reuben"}, {"place": "Taste of Italy", "food": "(GF) Creamy Pasta Pomodoro"}]}, "weekStart": "2024-05-13"}, {"day": "Thursday", "lunch": {"date": "2024-05-16T00:00:00.000Z", "lunch": [{"place": "Chef's Grill", "food": "(GF) Mojo Marinated Beef\n(GF) Yuca Fries\n(GF) Roasted Asparagus"}, {"place": "Veggie Cafe", "food": "(VEG, GF) Tofu Rancheros\n(VEG, GF) Bean and Cheese Burritos"}, {"place": "Bistro Garden", "food": "Deli Bar Served Daily\nCarving Station: Vietnamese Caramel Pork with Butterfly Bao Buns"}, {"place": "Mexican Fiesta", "food": "Closed for AP Testing"}, {"place": "Chowda House", "food": "(GF) Smoked Salmon Gyro with Tzatziki and Greek Salsa"}, {"place": "Burgerland", "food": "(VEG) Veggie Burger Served Daily\n(GF) Pancake Breakfast Sandwich with Raspberry Maple Syrup"}, {"place": "Taste of Italy", "food": "(GF) Coconut Tomato Sauce"}]}, "weekStart": "2024-05-13"}, {"day": "Friday", "lunch": {"date": "2024-05-17T00:00:00.000Z", "lunch": [{"place": "Chef's Grill", "food": "Oven Baked Fried Chicken\nLoaded Mashed Potatoes\nWilted Mixed Greens"}, {"place": "Veggie Cafe", "food": "(VEG, GF) Aloo Tamatar Sabzi with Garlic Naan\n(VEG, GF) Crustless Caprese Quiche"}, {"place": "Bistro Garden", "food": "Deli Bar Served Daily\n(GF) Carving Station: Pesto Turkey with Lemon Orzo"}, {"place": "Mexican Fiesta", "food": "Closed for AP Testing"}, {"place": "Chowda House", "food": "(GF) Cod with Cilantro Vinaigrette over Creamed Corn"}, {"place": "Burgerland", "food": "(VEG) Veggie Burger Served Daily\n(GF) Chef\u2019s Choice"}, {"place": "Taste of Italy", "food": "(GF) Sweet Corn Pasta with Basil"}]}, "weekStart": "2024-05-13"}], "2024-04-29": [{"day": "Monday", "lunch": {"date": "2024-04-29T00:00:00.000Z", "lunch": [{"place": "Chef's Grill", "food": "(GF) Garlic Parmesan\n(GF) Chicken Skewers\n(GF) Mashed Potatoes\n(GF) Roasted Mushrooms"}, {"place": "Veggie Cafe", "food": "(VEG) Cold Sesame Noodle with Broccoli and Kale\n(VEG) Vadouvan Roasted Cauliflower"}, {"place": "Bistro Garden", "food": "Deli Bar Served Daily\nCarving Station: Yogurt Marinated Pork Loin"}, {"place": "Mexican Fiesta", "food": "(GF) Beef Soft Tacos\n(GF) Impossible Salpicon"}, {"place": "Chowda House", "food": "Crispy Shrimp Salad"}, {"place": "Burgerland", "food": "(VEG) Veggie Burger Served Daily\n(GF) Salmon Burger with Greek Yogurt Slaw"}, {"place": "Taste of Italy", "food": "(GF) Gluten Free Available Daily\n(GF) Balsamic Pork Ragu with Basil"}]}, "weekStart": "2024-04-29"}, {"day": "Tuesday", "lunch": {"date": "2024-04-30T00:00:00.000Z", "lunch": [{"place": "Chef's Grill", "food": "Korean Glazed Turkey\nMiso Sweet Potatoes\nSesame Green Beans"}, {"place": "Veggie Cafe", "food": "(VEG) Grilled Avocado with Chickpea Tahini Salad\n(VEG) Battered Mushrooms"}, {"place": "Bistro Garden", "food": "Deli Bar Served Daily\n(GF) Carving Station: Filipino Beef Mechado"}, {"place": "Mexican Fiesta", "food": "(GF) El Polo Loco\n(GF) Chile Rellenos"}, {"place": "Chowda House", "food": "Sumac Baked Fish with Saffron Quinoa"}, {"place": "Burgerland", "food": "(VEG) Veggie Burger Served Daily\n(GF) Fried Chicken with Hoison Aioli"}, {"place": "Taste of Italy", "food": "(GF) Gluten Free Available Daily\n(GF) Mushroom Marsala Ragu"}]}, "weekStart": "2024-04-29"}, {"day": "Wednesday", "lunch": {"date": "2024-05-01T00:00:00.000Z", "lunch": [{"place": "Chef's Grill", "food": "(GF) Ropa Vieja\n(GF) Yellow Rice\n(GF) Black Beans\n(GF) Sweet Plantains"}, {"place": "Veggie Cafe", "food": "(VEG, GF) Greek Sheet Pan Dinner with Pita\n(VEG, GF) Eggplant Pachadi"}, {"place": "Bistro Garden", "food": "Deli Bar Served Daily\n(GF) Carving Station: Buffalo Chicken Meatloaf"}, {"place": "Mexican Fiesta", "food": "(GF) Mushroom Quesdaillas"}, {"place": "Chowda House", "food": "Crab Linguini with Garlic Butter Sauce"}, {"place": "Burgerland", "food": "(VEG) Veggie Burger Served Daily\n(GF) Bombay Masala Chile Cheese Toasty"}, {"place": "Taste of Italy", "food": "(GF) Gluten Free Available Daily\n(GF) Chipotle Pesto"}]}, "weekStart": "2024-04-29"}, {"day": "Thursday", "lunch": {"date": "2024-05-02T00:00:00.000Z", "lunch": [{"place": "Chef's Grill", "food": "(GF) Yellow Chicken Curry\n(GF) Steamed Rice\n(GF) Warm Naan"}, {"place": "Veggie Cafe", "food": "(VEG, GF) Impossible American Chop Suey\n(VEG, GF) Roasted Carrot and Black Quinoa Salad"}, {"place": "Bistro Garden", "food": "Deli Bar Served Daily\n(GF) Carving Station: Chinese Cumin Lamb"}, {"place": "Mexican Fiesta", "food": "(GF) Assorted Tamales"}, {"place": "Chowda House", "food": "Louisiana Catfish with Grits and Greens"}, {"place": "Burgerland", "food": "(VEG) Veggie Burger Served Daily\n(GF) Spicy Egg Sandwich with Turkey Sausage and Pickled Peppers"}, {"place": "Taste of Italy", "food": "(GF) Gluten Free Available Daily\n(GF) Baked Tortellini"}]}, "weekStart": "2024-04-29"}, {"day": "Friday", "lunch": {"date": "2024-05-03T00:00:00.000Z", "lunch": [{"place": "Chef's Grill", "food": "(GF) Roasted Pork\n(GF) Sauteed Apples\n(GF) Roasted Brussel Sprouts"}, {"place": "Veggie Cafe", "food": "(VEG, GF) Cuban Sweet Potato Picadillo\n(VEG, GF) Moroccan Chickpea Tagine"}, {"place": "Bistro Garden", "food": "Deli Bar Served Daily\n(GF) Carving Station: Moroccan Beef Tagine"}, {"place": "Mexican Fiesta", "food": "(GF) Chicken Taquitos\n(GF) Tofu Sofritas Tacos"}, {"place": "Chowda House", "food": "Goan Fish Curry"}, {"place": "Burgerland", "food": "(VEG) Veggie Burger Served Daily\n(GF) Chef\u2019s Choice"}, {"place": "Taste of Italy", "food": "(GF) Gluten Free Available Daily\n(GF) Pumpkin Sausage Cream Sauce"}]}, "weekStart": "2024-04-29"}], "2024-04-22": [{"day": "Monday", "lunch": {"date": "2024-04-22T00:00:00.000Z", "lunch": [{"place": "Chef's Grill", "food": "Chef's Choice"}, {"place": "Veggie Cafe", "food": "(VEG) Chef's Choice"}, {"place": "Bistro Garden", "food": "Deli Bar Served Daily\nCarving Station: Chef's Choice"}, {"place": "Mexican Fiesta", "food": "Chef's Choice"}, {"place": "Chowda House", "food": "Chef's Choice"}, {"place": "Burgerland", "food": "(VEG) Veggie Burger Served Daily\nChef's Choice"}, {"place": "Taste of Italy", "food": "(GF) Gluten Free Available Daily\nChef's Choice"}]}, "weekStart": "2024-04-22"}, {"day": "Tuesday", "lunch": {"date": "2024-04-23T00:00:00.000Z", "lunch": [{"place": "Chef's Grill", "food": "Chef's Choice"}, {"place": "Veggie Cafe", "food": "(VEG) Chef's Choice"}, {"place": "Bistro Garden", "food": "Deli Bar Served Daily\nCarving Station: Chef's Choice"}, {"place": "Mexican Fiesta", "food": "Chef's Choice"}, {"place": "Chowda House", "food": "Chef's Choice"}, {"place": "Burgerland", "food": "(VEG) Veggie Burger Served Daily\nChef's Choice"}, {"place": "Taste of Italy", "food": "(GF) Gluten Free Available Daily\nChef's Choice"}]}, "weekStart": "2024-04-22"}, {"day": "Wednesday", "lunch": {"date": "2024-04-24T00:00:00.000Z", "lunch": [{"place": "Chef's Grill", "food": "Chef's Choice"}, {"place": "Veggie Cafe", "food": "(VEG) Chef's Choice"}, {"place": "Bistro Garden", "food": "Deli Bar Served Daily\nCarving Station: Chef's Choice"}, {"place": "Mexican Fiesta", "food": "Chef's Choice"}, {"place": "Chowda House", "food": "Chef's Choice"}, {"place": "Burgerland", "food": "(VEG) Veggie Burger Served Daily\nChef's Choice"}, {"place": "Taste of Italy", "food": "(GF) Gluten Free Available Daily\nChef's Choice"}]}, "weekStart": "2024-04-22"}, {"day": "Thursday", "lunch": {"date": "2024-04-25T00:00:00.000Z", "lunch": [{"place": "Chef's Grill", "food": "Chef's Choice"}, {"place": "Veggie Cafe", "food": "(VEG) Chef's Choice"}, {"place": "Bistro Garden", "food": "Deli Bar Served Daily\nCarving Station: Chef's Choice"}, {"place": "Mexican Fiesta", "food": "Chef's Choice"}, {"place": "Chowda House", "food": "Chef's Choice"}, {"place": "Burgerland", "food": "(VEG) Veggie Burger Served Daily\nChef's Choice"}, {"place": "Taste of Italy", "food": "(GF) Gluten Free Available Daily\nChef's Choice"}]}, "weekStart": "2024-04-22"}, {"day": "Friday", "lunch": {"date": "2024-04-26T00:00:00.000Z", "lunch": [{"place": "Chef's Grill", "food": "Chef's Choice"}, {"place": "Veggie Cafe", "food": "(VEG) Chef's Choice"}, {"place": "Bistro Garden", "food": "Deli Bar Served Daily\nCarving Station: Chef's Choice"}, {"place": "Mexican Fiesta", "food": "Chef's Choice"}, {"place": "Chowda House", "food": "Chef's Choice"}, {"place": "Burgerland", "food": "(VEG) Veggie Burger Served Daily\nChef's Choice"}, {"place": "Taste of Italy", "food": "(GF) Gluten Free Available Daily\nChef's Choice"}]}, "weekStart": "2024-04-22"}]}
+{
+    "2024-10-21": [
+        {
+            "day": "Monday",
+            "lunch": "empty",
+            "weekStart": "2024-10-21"
+        },
+        {
+            "day": "Tuesday",
+            "lunch": "empty",
+            "weekStart": "2024-10-21"
+        },
+        {
+            "day": "Wednesday",
+            "lunch": "empty",
+            "weekStart": "2024-10-21"
+        },
+        {
+            "day": "Thursday",
+            "lunch": "empty",
+            "weekStart": "2024-10-21"
+        },
+        {
+            "day": "Friday",
+            "lunch": "empty",
+            "weekStart": "2024-10-21"
+        }
+    ],
+    "2024-10-14": [
+        {
+            "day": "Monday",
+            "lunch": "empty",
+            "weekStart": "2024-10-14"
+        },
+        {
+            "day": "Tuesday",
+            "lunch": "empty",
+            "weekStart": "2024-10-14"
+        },
+        {
+            "day": "Wednesday",
+            "lunch": "empty",
+            "weekStart": "2024-10-14"
+        },
+        {
+            "day": "Thursday",
+            "lunch": "empty",
+            "weekStart": "2024-10-14"
+        },
+        {
+            "day": "Friday",
+            "lunch": "empty",
+            "weekStart": "2024-10-14"
+        }
+    ],
+    "2024-10-07": [
+        {
+            "day": "Monday",
+            "lunch": "empty",
+            "weekStart": "2024-10-07"
+        },
+        {
+            "day": "Tuesday",
+            "lunch": "empty",
+            "weekStart": "2024-10-07"
+        },
+        {
+            "day": "Wednesday",
+            "lunch": "empty",
+            "weekStart": "2024-10-07"
+        },
+        {
+            "day": "Thursday",
+            "lunch": "empty",
+            "weekStart": "2024-10-07"
+        },
+        {
+            "day": "Friday",
+            "lunch": "empty",
+            "weekStart": "2024-10-07"
+        }
+    ],
+    "2024-09-30": [
+        {
+            "day": "Monday",
+            "lunch": "empty",
+            "weekStart": "2024-09-30"
+        },
+        {
+            "day": "Tuesday",
+            "lunch": "empty",
+            "weekStart": "2024-09-30"
+        },
+        {
+            "day": "Wednesday",
+            "lunch": "empty",
+            "weekStart": "2024-09-30"
+        },
+        {
+            "day": "Thursday",
+            "lunch": "empty",
+            "weekStart": "2024-09-30"
+        },
+        {
+            "day": "Friday",
+            "lunch": "empty",
+            "weekStart": "2024-09-30"
+        }
+    ],
+    "2024-09-23": [
+        {
+            "day": "Monday",
+            "lunch": "empty",
+            "weekStart": "2024-09-23"
+        },
+        {
+            "day": "Tuesday",
+            "lunch": "empty",
+            "weekStart": "2024-09-23"
+        },
+        {
+            "day": "Wednesday",
+            "lunch": "empty",
+            "weekStart": "2024-09-23"
+        },
+        {
+            "day": "Thursday",
+            "lunch": "empty",
+            "weekStart": "2024-09-23"
+        },
+        {
+            "day": "Friday",
+            "lunch": "empty",
+            "weekStart": "2024-09-23"
+        }
+    ],
+    "2024-09-16": [
+        {
+            "day": "Monday",
+            "lunch": "empty",
+            "weekStart": "2024-09-16"
+        },
+        {
+            "day": "Tuesday",
+            "lunch": "empty",
+            "weekStart": "2024-09-16"
+        },
+        {
+            "day": "Wednesday",
+            "lunch": "empty",
+            "weekStart": "2024-09-16"
+        },
+        {
+            "day": "Thursday",
+            "lunch": "empty",
+            "weekStart": "2024-09-16"
+        },
+        {
+            "day": "Friday",
+            "lunch": "empty",
+            "weekStart": "2024-09-16"
+        }
+    ],
+    "2024-09-09": [
+        {
+            "day": "Monday",
+            "lunch": "empty",
+            "weekStart": "2024-09-09"
+        },
+        {
+            "day": "Tuesday",
+            "lunch": "empty",
+            "weekStart": "2024-09-09"
+        },
+        {
+            "day": "Wednesday",
+            "lunch": "empty",
+            "weekStart": "2024-09-09"
+        },
+        {
+            "day": "Thursday",
+            "lunch": "empty",
+            "weekStart": "2024-09-09"
+        },
+        {
+            "day": "Friday",
+            "lunch": "empty",
+            "weekStart": "2024-09-09"
+        }
+    ],
+    "2024-09-02": [
+        {
+            "day": "Monday",
+            "lunch": "empty",
+            "weekStart": "2024-09-02"
+        },
+        {
+            "day": "Tuesday",
+            "lunch": "empty",
+            "weekStart": "2024-09-02"
+        },
+        {
+            "day": "Wednesday",
+            "lunch": "empty",
+            "weekStart": "2024-09-02"
+        },
+        {
+            "day": "Thursday",
+            "lunch": "empty",
+            "weekStart": "2024-09-02"
+        },
+        {
+            "day": "Friday",
+            "lunch": "empty",
+            "weekStart": "2024-09-02"
+        }
+    ],
+    "2024-08-26": [
+        {
+            "day": "Monday",
+            "lunch": "empty",
+            "weekStart": "2024-08-26"
+        },
+        {
+            "day": "Tuesday",
+            "lunch": "empty",
+            "weekStart": "2024-08-26"
+        },
+        {
+            "day": "Wednesday",
+            "lunch": "empty",
+            "weekStart": "2024-08-26"
+        },
+        {
+            "day": "Thursday",
+            "lunch": "empty",
+            "weekStart": "2024-08-26"
+        },
+        {
+            "day": "Friday",
+            "lunch": "empty",
+            "weekStart": "2024-08-26"
+        }
+    ],
+    "2024-08-19": [
+        {
+            "day": "Monday",
+            "lunch": "empty",
+            "weekStart": "2024-08-19"
+        },
+        {
+            "day": "Tuesday",
+            "lunch": "empty",
+            "weekStart": "2024-08-19"
+        },
+        {
+            "day": "Wednesday",
+            "lunch": "empty",
+            "weekStart": "2024-08-19"
+        },
+        {
+            "day": "Thursday",
+            "lunch": "empty",
+            "weekStart": "2024-08-19"
+        },
+        {
+            "day": "Friday",
+            "lunch": "empty",
+            "weekStart": "2024-08-19"
+        }
+    ],
+    "2024-08-12": [
+        {
+            "day": "Monday",
+            "lunch": "empty",
+            "weekStart": "2024-08-12"
+        },
+        {
+            "day": "Tuesday",
+            "lunch": "empty",
+            "weekStart": "2024-08-12"
+        },
+        {
+            "day": "Wednesday",
+            "lunch": "empty",
+            "weekStart": "2024-08-12"
+        },
+        {
+            "day": "Thursday",
+            "lunch": "empty",
+            "weekStart": "2024-08-12"
+        },
+        {
+            "day": "Friday",
+            "lunch": "empty",
+            "weekStart": "2024-08-12"
+        }
+    ],
+    "2024-08-05": [
+        {
+            "day": "Monday",
+            "lunch": "empty",
+            "weekStart": "2024-08-05"
+        },
+        {
+            "day": "Tuesday",
+            "lunch": "empty",
+            "weekStart": "2024-08-05"
+        },
+        {
+            "day": "Wednesday",
+            "lunch": "empty",
+            "weekStart": "2024-08-05"
+        },
+        {
+            "day": "Thursday",
+            "lunch": "empty",
+            "weekStart": "2024-08-05"
+        },
+        {
+            "day": "Friday",
+            "lunch": "empty",
+            "weekStart": "2024-08-05"
+        }
+    ],
+    "2024-07-29": [
+        {
+            "day": "Monday",
+            "lunch": "empty",
+            "weekStart": "2024-07-29"
+        },
+        {
+            "day": "Tuesday",
+            "lunch": "empty",
+            "weekStart": "2024-07-29"
+        },
+        {
+            "day": "Wednesday",
+            "lunch": "empty",
+            "weekStart": "2024-07-29"
+        },
+        {
+            "day": "Thursday",
+            "lunch": "empty",
+            "weekStart": "2024-07-29"
+        },
+        {
+            "day": "Friday",
+            "lunch": "empty",
+            "weekStart": "2024-07-29"
+        }
+    ],
+    "2024-07-22": [
+        {
+            "day": "Monday",
+            "lunch": "empty",
+            "weekStart": "2024-07-22"
+        },
+        {
+            "day": "Tuesday",
+            "lunch": "empty",
+            "weekStart": "2024-07-22"
+        },
+        {
+            "day": "Wednesday",
+            "lunch": "empty",
+            "weekStart": "2024-07-22"
+        },
+        {
+            "day": "Thursday",
+            "lunch": "empty",
+            "weekStart": "2024-07-22"
+        },
+        {
+            "day": "Friday",
+            "lunch": "empty",
+            "weekStart": "2024-07-22"
+        }
+    ],
+    "2024-07-15": [
+        {
+            "day": "Monday",
+            "lunch": "empty",
+            "weekStart": "2024-07-15"
+        },
+        {
+            "day": "Tuesday",
+            "lunch": "empty",
+            "weekStart": "2024-07-15"
+        },
+        {
+            "day": "Wednesday",
+            "lunch": "empty",
+            "weekStart": "2024-07-15"
+        },
+        {
+            "day": "Thursday",
+            "lunch": "empty",
+            "weekStart": "2024-07-15"
+        },
+        {
+            "day": "Friday",
+            "lunch": "empty",
+            "weekStart": "2024-07-15"
+        }
+    ],
+    "2024-07-08": [
+        {
+            "day": "Monday",
+            "lunch": "empty",
+            "weekStart": "2024-07-08"
+        },
+        {
+            "day": "Tuesday",
+            "lunch": "empty",
+            "weekStart": "2024-07-08"
+        },
+        {
+            "day": "Wednesday",
+            "lunch": "empty",
+            "weekStart": "2024-07-08"
+        },
+        {
+            "day": "Thursday",
+            "lunch": "empty",
+            "weekStart": "2024-07-08"
+        },
+        {
+            "day": "Friday",
+            "lunch": "empty",
+            "weekStart": "2024-07-08"
+        }
+    ],
+    "2024-07-01": [
+        {
+            "day": "Monday",
+            "lunch": "empty",
+            "weekStart": "2024-07-01"
+        },
+        {
+            "day": "Tuesday",
+            "lunch": "empty",
+            "weekStart": "2024-07-01"
+        },
+        {
+            "day": "Wednesday",
+            "lunch": "empty",
+            "weekStart": "2024-07-01"
+        },
+        {
+            "day": "Thursday",
+            "lunch": "empty",
+            "weekStart": "2024-07-01"
+        },
+        {
+            "day": "Friday",
+            "lunch": "empty",
+            "weekStart": "2024-07-01"
+        }
+    ],
+    "2024-06-24": [
+        {
+            "day": "Monday",
+            "lunch": "empty",
+            "weekStart": "2024-06-24"
+        },
+        {
+            "day": "Tuesday",
+            "lunch": "empty",
+            "weekStart": "2024-06-24"
+        },
+        {
+            "day": "Wednesday",
+            "lunch": "empty",
+            "weekStart": "2024-06-24"
+        },
+        {
+            "day": "Thursday",
+            "lunch": "empty",
+            "weekStart": "2024-06-24"
+        },
+        {
+            "day": "Friday",
+            "lunch": "empty",
+            "weekStart": "2024-06-24"
+        }
+    ],
+    "2024-06-17": [
+        {
+            "day": "Monday",
+            "lunch": "empty",
+            "weekStart": "2024-06-17"
+        },
+        {
+            "day": "Tuesday",
+            "lunch": "empty",
+            "weekStart": "2024-06-17"
+        },
+        {
+            "day": "Wednesday",
+            "lunch": "empty",
+            "weekStart": "2024-06-17"
+        },
+        {
+            "day": "Thursday",
+            "lunch": "empty",
+            "weekStart": "2024-06-17"
+        },
+        {
+            "day": "Friday",
+            "lunch": "empty",
+            "weekStart": "2024-06-17"
+        }
+    ],
+    "2024-06-10": [
+        {
+            "day": "Monday",
+            "lunch": "empty",
+            "weekStart": "2024-06-10"
+        },
+        {
+            "day": "Tuesday",
+            "lunch": "empty",
+            "weekStart": "2024-06-10"
+        },
+        {
+            "day": "Wednesday",
+            "lunch": "empty",
+            "weekStart": "2024-06-10"
+        },
+        {
+            "day": "Thursday",
+            "lunch": "empty",
+            "weekStart": "2024-06-10"
+        },
+        {
+            "day": "Friday",
+            "lunch": "empty",
+            "weekStart": "2024-06-10"
+        }
+    ],
+    "2024-06-03": [
+        {
+            "day": "Monday",
+            "lunch": "empty",
+            "weekStart": "2024-06-03"
+        },
+        {
+            "day": "Tuesday",
+            "lunch": "empty",
+            "weekStart": "2024-06-03"
+        },
+        {
+            "day": "Wednesday",
+            "lunch": "empty",
+            "weekStart": "2024-06-03"
+        },
+        {
+            "day": "Thursday",
+            "lunch": "empty",
+            "weekStart": "2024-06-03"
+        },
+        {
+            "day": "Friday",
+            "lunch": "empty",
+            "weekStart": "2024-06-03"
+        }
+    ]
+}
