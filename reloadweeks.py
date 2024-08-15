@@ -9,6 +9,7 @@ HEADERS = {
     "Content-Type": "application/x-www-form-urlencoded"
 }
 
+# Function to fetch lunch data from api endpoint
 def fetch_lunch(month, day, year):
     params = {
         "month": month,
@@ -22,6 +23,7 @@ def fetch_lunch(month, day, year):
     else:
         return None
 
+# Get the lunch for a specific day
 def load_stored_weeks():
     try:
         with open('storedweeks.json', 'r') as f:
@@ -33,11 +35,13 @@ def save_stored_weeks(stored_weeks):
     with open('storedweeks.json', 'w') as f:
         json.dump(stored_weeks, f, indent=4)
 
+# Function to get the lunch for a specific week
 def get_week_lunch(start_date):
     end_date = start_date + timedelta(days=4)
     week_lunch = []
     current_date = start_date
 
+    # Create and return week
     while current_date <= end_date:
         day_lunch = fetch_lunch(current_date.month, current_date.day, current_date.year)
         if day_lunch:
@@ -58,6 +62,7 @@ def get_week_lunch(start_date):
 
 def update_lunch_data():
     while True:
+        # Update and recache weeks to provide current and accurate data
         try:
             stored_weeks = load_stored_weeks()
             

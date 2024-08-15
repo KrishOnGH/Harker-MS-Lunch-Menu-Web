@@ -7,12 +7,12 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-# Base URL for the API
 BASE_URL = "https://bell.dev.harker.org/api/lunchmenu"
 HEADERS = {
     "Content-Type": "application/x-www-form-urlencoded"
 }
 
+# Function to fetch lunch data from api endpoint
 def fetch_lunch(month, day, year):
     params = {
         "month": month,
@@ -36,6 +36,7 @@ def get_day_lunch(month, day, year):
     else:
         return jsonify({"error": "Failed to retrieve data"}), 500
 
+# JSON I/O for stored weeks caching
 def load_stored_weeks():
     try:
         with open('storedweeks.json', 'r') as f:
@@ -47,8 +48,10 @@ def save_stored_weeks(stored_weeks):
     with open('storedweeks.json', 'w') as f:
         json.dump(stored_weeks, f)
 
+# Get the lunch for a specific week
 @app.route('/week/<int:month>/<int:day>/<int:year>', methods=['GET'])
 def get_week_lunch(month, day, year):
+    # Get week dates
     target_date = datetime(year, month, day)
 
     if target_date.weekday() == 5:  # Saturday
@@ -62,9 +65,11 @@ def get_week_lunch(month, day, year):
 
     stored_weeks = load_stored_weeks()
 
+    # Check if week is cached
     if start_date_str in stored_weeks:
         return jsonify(stored_weeks[start_date_str]), 200
 
+    # If not cached, created data manually and cache
     end_date = start_date + timedelta(days=4)
     week_lunch = []
     current_date = start_date
