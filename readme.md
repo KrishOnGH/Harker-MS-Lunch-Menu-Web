@@ -1,5 +1,9 @@
 # Harker Lunch Menu
 
+[![Cover Video](https://img.youtube.com/vi/YmU11VxuYow/0.jpg)](https://youtu.be/YmU11VxuYow "Preview Video")
+
+(Above Video is a Youtube Link, Click on it)
+
 This is a modern UI application built with Next.js and Tailwind CSS that interactively displays the Harker lunch menu. The app is responsive and provides easy navigation, allowing users on any device to navigate through the current or past lunch schedule(s) with ease.
 
 ## Features
